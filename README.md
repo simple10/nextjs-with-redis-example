@@ -1,3 +1,25 @@
+# Notes
+
+Original code from https://github.com/vercel/next.js/tree/canary/examples/with-redis
+
+This example works out of the box for local development.
+
+## Setup
+
+```bash
+git clone https://github.com/simple10/nextjs-with-redis-example.git
+cd nextjs-with-redis-example
+npm install
+
+# Install redis if needed
+brew install redis
+brew service start redis
+
+npm run dev
+```
+
+
+
 # Redis Example (with Upstash)
 
 This example showcases how to use Redis as a data store in a Next.js project.
